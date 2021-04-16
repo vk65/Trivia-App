@@ -1,0 +1,45 @@
+[
+
+ {
+
+     "question": "Who is the best Cricketer in the world",
+
+     "answers": {
+
+         "a": "Sachin Tendulkar",
+
+         "b": "Virat Kohil",
+
+         "c": "Adam Glichrist",
+         
+         "d": "Jacques Kallis",
+
+         "correct": "a"
+
+     }
+
+ },
+
+ {
+
+     "question": "What are the colors in the Indian national flag? Select all",
+
+     "answers": {
+
+         "a": "White",
+
+         "b": "Yellow",
+
+         "c": "Orange",
+         
+         "d": "Green",
+
+         "correct": "a"
+
+     }
+
+ }
+
+]
+
+ 
