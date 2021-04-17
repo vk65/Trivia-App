@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC07737C2629BDC8002305C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07737A2629BDC8002305C4 /* TableViewCell.swift */; };
+		CC07737D2629BDC8002305C4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC07737B2629BDC8002305C4 /* TableViewCell.xib */; };
+		CC0773832629BFFF002305C4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0773822629BFFF002305C4 /* DetailsViewController.swift */; };
+		CC0773862629C215002305C4 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0773852629C215002305C4 /* Details.swift */; };
+		CC3C7BAF2629479400A87B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C7BAE2629479400A87B67 /* AppDelegate.swift */; };
+		CC3C7BB12629479500A87B67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C7BB02629479500A87B67 /* SceneDelegate.swift */; };
+		CC3C7BB32629479500A87B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C7BB22629479500A87B67 /* ViewController.swift */; };
+		CC3C7BB62629479500A87B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C7BB42629479500A87B67 /* Main.storyboard */; };
+		CC3C7BB8262947B500A87B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C7BB7262947B500A87B67 /* Assets.xcassets */; };
+		CC3C7BBB262947B500A87B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C7BB9262947B500A87B67 /* LaunchScreen.storyboard */; };
+		CC3C7BCB26295DB100A87B67 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C7BCA26295DB100A87B67 /* NextViewController.swift */; };
+		CC3C7BCE2629601700A87B67 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C7BCD2629601700A87B67 /* Question.swift */; };
+		CCB336CD2629897700C34D75 /* Q&A.json in Resources */ = {isa = PBXBuildFile; fileRef = CCB336CC2629897700C34D75 /* Q&A.json */; };
+		E16A9A6AD2F2A3FC1A5D492D /* Pods_Trivia_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416E9D3E652CF03C9C6510FF /* Pods_Trivia_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FA6314FD9D4AEBEDBCEBE9F /* Pods-Trivia App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia App.release.xcconfig"; path = "Target Support Files/Pods-Trivia App/Pods-Trivia App.release.xcconfig"; sourceTree = "<group>"; };
+		416E9D3E652CF03C9C6510FF /* Pods_Trivia_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9344068B6306BF40A7B82643 /* Pods-Trivia App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia App.debug.xcconfig"; path = "Target Support Files/Pods-Trivia App/Pods-Trivia App.debug.xcconfig"; sourceTree = "<group>"; };
+		CC07737A2629BDC8002305C4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CC07737B2629BDC8002305C4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CC0773822629BFFF002305C4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CC0773852629C215002305C4 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		CC3C7BAB2629479400A87B67 /* Trivia App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3C7BAE2629479400A87B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3C7BB02629479500A87B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC3C7BB22629479500A87B67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3C7BB52629479500A87B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3C7BB7262947B500A87B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3C7BBA262947B500A87B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC3C7BBC262947B600A87B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3C7BCA26295DB100A87B67 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		CC3C7BCD2629601700A87B67 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CCB336CC2629897700C34D75 /* Q&A.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Q&A.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3C7BA82629479400A87B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16A9A6AD2F2A3FC1A5D492D /* Pods_Trivia_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60F2F02CEDD3D61FB95215A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9344068B6306BF40A7B82643 /* Pods-Trivia App.debug.xcconfig */,
+				3FA6314FD9D4AEBEDBCEBE9F /* Pods-Trivia App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFCD713CB07BCA1DA462F076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416E9D3E652CF03C9C6510FF /* Pods_Trivia_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3C7BA22629479300A87B67 = {
+			isa = PBXGroup;
+			children = (
+				CC3C7BAE2629479400A87B67 /* AppDelegate.swift */,
+				CC3C7BB02629479500A87B67 /* SceneDelegate.swift */,
+				CC3C7BAD2629479400A87B67 /* Trivia App */,
+				CC3C7BAC2629479400A87B67 /* Products */,
+				60F2F02CEDD3D61FB95215A0 /* Pods */,
+				AFCD713CB07BCA1DA462F076 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3C7BAC2629479400A87B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C7BAB2629479400A87B67 /* Trivia App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3C7BAD2629479400A87B67 /* Trivia App */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C7BC3262947CE00A87B67 /* Model */,
+				CC3C7BC72629480100A87B67 /* Controller */,
+				CC3C7BB22629479500A87B67 /* ViewController.swift */,
+				CC0773822629BFFF002305C4 /* DetailsViewController.swift */,
+				CC07737A2629BDC8002305C4 /* TableViewCell.swift */,
+				CC3C7BCA26295DB100A87B67 /* NextViewController.swift */,
+				CC3C7BB7262947B500A87B67 /* Assets.xcassets */,
+				CC3C7BBC262947B600A87B67 /* Info.plist */,
+				CCB336CC2629897700C34D75 /* Q&A.json */,
+			);
+			path = "Trivia App";
+			sourceTree = "<group>";
+		};
+		CC3C7BC3262947CE00A87B67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C7BCD2629601700A87B67 /* Question.swift */,
+				CC0773852629C215002305C4 /* Details.swift */,
+				CC3C7BC6262947FA00A87B67 /* View */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC3C7BC6262947FA00A87B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C7BB42629479500A87B67 /* Main.storyboard */,
+				CC3C7BB9262947B500A87B67 /* LaunchScreen.storyboard */,
+				CC07737B2629BDC8002305C4 /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC3C7BC72629480100A87B67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3C7BAA2629479400A87B67 /* Trivia App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3C7BBF262947B600A87B67 /* Build configuration list for PBXNativeTarget "Trivia App" */;
+			buildPhases = (
+				C62B447494C4BBA0C2A16E6A /* [CP] Check Pods Manifest.lock */,
+				CC3C7BA72629479400A87B67 /* Sources */,
+				CC3C7BA82629479400A87B67 /* Frameworks */,
+				CC3C7BA92629479400A87B67 /* Resources */,
+				05067FB3A562FA232F74A01B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trivia App";
+			productName = "Trivia App";
+			productReference = CC3C7BAB2629479400A87B67 /* Trivia App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3C7BA32629479400A87B67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CC3C7BAA2629479400A87B67 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = CC3C7BA62629479400A87B67 /* Build configuration list for PBXProject "Trivia App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3C7BA22629479300A87B67;
+			productRefGroup = CC3C7BAC2629479400A87B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3C7BAA2629479400A87B67 /* Trivia App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3C7BA92629479400A87B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3C7BBB262947B500A87B67 /* LaunchScreen.storyboard in Resources */,
+				CC07737D2629BDC8002305C4 /* TableViewCell.xib in Resources */,
+				CC3C7BB8262947B500A87B67 /* Assets.xcassets in Resources */,
+				CC3C7BB62629479500A87B67 /* Main.storyboard in Resources */,
+				CCB336CD2629897700C34D75 /* Q&A.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05067FB3A562FA232F74A01B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trivia App/Pods-Trivia App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trivia App/Pods-Trivia App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trivia App/Pods-Trivia App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62B447494C4BBA0C2A16E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivia App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3C7BA72629479400A87B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3C7BB32629479500A87B67 /* ViewController.swift in Sources */,
+				CC3C7BCB26295DB100A87B67 /* NextViewController.swift in Sources */,
+				CC3C7BCE2629601700A87B67 /* Question.swift in Sources */,
+				CC3C7BAF2629479400A87B67 /* AppDelegate.swift in Sources */,
+				CC0773832629BFFF002305C4 /* DetailsViewController.swift in Sources */,
+				CC3C7BB12629479500A87B67 /* SceneDelegate.swift in Sources */,
+				CC0773862629C215002305C4 /* Details.swift in Sources */,
+				CC07737C2629BDC8002305C4 /* TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC3C7BB42629479500A87B67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3C7BB52629479500A87B67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC3C7BB9262947B500A87B67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3C7BBA262947B500A87B67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3C7BBD262947B600A87B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3C7BBE262947B600A87B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3C7BC0262947B600A87B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9344068B6306BF40A7B82643 /* Pods-Trivia App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trivia App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BrnInfotech.Trivia-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3C7BC1262947B600A87B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA6314FD9D4AEBEDBCEBE9F /* Pods-Trivia App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trivia App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BrnInfotech.Trivia-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3C7BA62629479400A87B67 /* Build configuration list for PBXProject "Trivia App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3C7BBD262947B600A87B67 /* Debug */,
+				CC3C7BBE262947B600A87B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3C7BBF262947B600A87B67 /* Build configuration list for PBXNativeTarget "Trivia App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3C7BC0262947B600A87B67 /* Debug */,
+				CC3C7BC1262947B600A87B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3C7BA32629479400A87B67 /* Project object */;
+}
