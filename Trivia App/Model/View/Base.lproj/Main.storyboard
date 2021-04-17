@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Trivia_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainmenu" id="BYZ-38-t0r" customClass="ViewController" customModule="Trivia_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,6 +70,7 @@
                         <outlet property="StartButton" destination="rfL-0t-7bL" id="dIN-jW-NOI"/>
                         <outlet property="imgView" destination="INI-Tn-8fD" id="Z6R-14-tRn"/>
                         <outlet property="nameField" destination="zfo-34-6hX" id="etq-uw-sBa"/>
+                        <segue destination="GCw-Dc-yJs" kind="show" identifier="mainview" id="eZP-Xy-obj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -224,7 +225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QmE-b6-4fn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2000.0000000000002" y="113.83928571428571"/>
+            <point key="canvasLocation" x="2059" y="774"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="9w2-0Z-278">
@@ -236,10 +237,17 @@
                         <viewLayoutGuide key="safeArea" id="Tph-Vt-ntC"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ocG-5g-yxE">
+                        <barButtonItem key="rightBarButtonItem" title="Back To Main Page" id="if2-59-A4N">
+                            <connections>
+                                <action selector="BacktoViewButton:" destination="GCw-Dc-yJs" id="Nmf-ft-Jxn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U3j-0R-FiW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2689.8550724637685" y="113.83928571428571"/>
+            <point key="canvasLocation" x="2251" y="131"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b4I-jB-0Wl">

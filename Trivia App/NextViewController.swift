@@ -10,7 +10,7 @@ import UIKit
 import SQLite
 
 //creating a instance of class viewcontroller through a variable
-var term = ViewController()
+
 var detailsArr:[Details] = []
 class NextViewController: UIViewController {
     

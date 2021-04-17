@@ -47,8 +47,10 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
     //creating a function for displaying cellForRowAt
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        //creating a tableviewcell for populating the values
         var cell = tableView.dequeueReusableCell(withIdentifier: "abc", for: indexPath) as! TableViewCell
         
+        //appending the values to customcell labels
         cell.resultLbl.text = detailsArr[indexPath.row].question
         
         cell.nameResLbl.text = detailsArr[indexPath.row].answer
@@ -62,4 +64,14 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 400
     }
+    
+    
+    //creating a function for moving back to the view controller
+    @IBAction func BacktoViewButton(_ sender: UIBarButtonItem) {
+        
+        //navigating from results to main view controller
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
+    
 }
